@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-     &kp GRAVE  &kp N1            &kp N2          &kp N3                &kp N4  &kp N5            &none                                                                             &none  &kp N6                 &kp N7           &kp N8             &kp N9    &kp N0  &kp MINUS
-       &kp TAB   &kp Q             &kp W           &kp F                 &kp P   &kp G            &none                                                                             &none   &kp J                  &kp L            &kp U              &kp Y  &kp SEMI   &kp BSLH
- &kp BACKSPACE   &kp A             &kp R           &kp S                 &kp T   &kp D            &none          &kp LALT  &bootloader                  &bootloader   &kp RWIN  &kp EQUAL   &kp H                  &kp N            &kp E              &kp I     &kp O    &kp SQT
-     &kp LSHFT   &kp Z             &kp X           &kp C                 &kp V   &kp B                                           &none                        &none                         &kp K                  &kp M        &kp COMMA            &kp DOT  &kp FSLH  &kp RSHFT
-         &none   &none  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS                    &mo 1  &kp LEFT_CONTROL      &kp ESC                       &tog 2  &kp ENTER  &kp SPACE          &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &none      &none
+     &kp GRAVE  &kp N1            &kp N2          &kp N3                &kp N4  &kp N5                 &none                                                                             &mo 1  &kp N6                 &kp N7           &kp N8             &kp N9    &kp N0  &kp MINUS
+       &kp TAB   &kp Q             &kp W           &kp F                 &kp P   &kp G                 &none                                                                             &none   &kp J                  &kp L            &kp U              &kp Y  &kp SEMI   &kp BSLH
+ &kp BACKSPACE   &kp A             &kp R           &kp S                 &kp T   &kp D                 &none          &kp LALT  &bootloader                  &bootloader   &kp RWIN  &kp EQUAL   &kp H                  &kp N            &kp E              &kp I     &kp O    &kp SQT
+         &mo 1   &kp Z             &kp X           &kp C                 &kp V   &kp B                                                &none                        &none                         &kp K                  &kp M        &kp COMMA            &kp DOT  &kp FSLH  &kp ENTER
+         &none   &none  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS                    &kp LSHIFT  &kp LEFT_CONTROL      &kp ESC                       &tog 2  &kp ENTER  &kp SPACE          &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &none      &none
             >;
         };
 

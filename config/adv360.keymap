@@ -38,20 +38,20 @@
 
         default_layer {
             bindings = <
-     &kp GRAVE  &kp N1            &kp N2          &kp N3                &kp N4  &kp N5                 &none                                                                             &mo 1  &kp N6                 &kp N7           &kp N8             &kp N9    &kp N0  &kp MINUS
-       &kp TAB   &kp Q             &kp W           &kp F                 &kp P   &kp G                 &none                                                                             &none   &kp J                  &kp L            &kp U              &kp Y  &kp SEMI   &kp BSLH
- &kp BACKSPACE   &kp A             &kp R           &kp S                 &kp T   &kp D            &kp DELETE          &kp LALT  &bootloader                  &bootloader   &kp RWIN  &kp EQUAL   &kp H                  &kp N            &kp E              &kp I     &kp O    &kp SQT
-         &mo 1   &kp Z             &kp X           &kp C                 &kp V   &kp B                                                &none                        &none                         &kp K                  &kp M        &kp COMMA            &kp DOT  &kp FSLH      &mo 1
-         &none   &none  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS                    &kp LSHIFT  &kp LEFT_CONTROL      &kp ESC                       &tog 2  &kp ENTER  &kp SPACE          &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &none      &none
+     &kp GRAVE  &kp N1            &kp N2          &kp N3                &kp N4  &kp N5               &kp ESC                                                                            &mo 1  &kp N6                 &kp N7           &kp N8             &kp N9    &kp N0  &kp MINUS
+       &kp TAB   &kp Q             &kp W           &kp F                 &kp P   &kp G                 &none                                                                            &none   &kp J                  &kp L            &kp U              &kp Y  &kp SEMI   &kp BSLH
+ &kp BACKSPACE   &kp A             &kp R           &kp S                 &kp T   &kp D                 &none          &kp LALT  &bootloader                  &bootloader  &kp RWIN      &none   &kp H                  &kp N            &kp E              &kp I     &kp O    &kp SQT
+     &kp EQUAL   &kp Z             &kp X           &kp C                 &kp V   &kp B                                                &none                        &none                        &kp K                  &kp M        &kp COMMA            &kp DOT  &kp FSLH  &kp ENTER
+         &mo 1   &none  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS                    &kp LSHIFT  &kp LEFT_CONTROL        &none                       &tog 2     &mo 1  &kp SPACE          &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &none      &none
             >;
         };
 
         layer_fn {
             bindings = <
       &kp F1  &kp F2    &kp F3    &kp F4     &kp F5  &kp F6            &trans                                                                  &trans        &kp F7        &kp F8        &kp F9       &kp F10       &kp F11      &kp F12
-      &trans  &trans  &kp HOME    &kp UP    &kp END  &trans            &trans                                                              &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &trans
+      &trans  &trans    &trans    &kp UP     &trans  &trans            &trans                                                              &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &trans
       &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &rgb_ug RGB_MEFS_CMD 5        &trans        &trans        &trans        &trans        &trans       &trans
-      &trans  &trans    &trans    &trans     &trans  &trans                            &trans                  &trans                                        &trans        &trans        &trans        &trans        &trans       &trans
+      &trans  &trans  &kp HOME    &trans    &kp END  &trans                            &trans                  &trans                                        &trans        &trans        &trans        &trans        &trans       &trans
  &bootloader  &trans    &trans    &trans     &trans                    &trans  &trans  &trans                  &trans  &trans                  &trans                      &trans        &trans        &trans        &trans  &bootloader
             >;
         };

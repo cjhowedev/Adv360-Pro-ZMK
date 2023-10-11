@@ -38,8 +38,8 @@
 
         default_layer {
             bindings = <
-     &kp GRAVE  &kp N1            &kp N2          &kp N3                &kp N4  &kp N5               &kp DEL                                                                            &mo 1  &kp N6                 &kp N7           &kp N8             &kp N9    &kp N0  &kp MINUS
-       &kp TAB   &kp Q             &kp W           &kp F                 &kp P   &kp G               &kp ESC                                                                            &none   &kp J                  &kp L            &kp U              &kp Y  &kp SEMI   &kp BSLH
+     &kp GRAVE  &kp N1            &kp N2          &kp N3                &kp N4  &kp N5               &kp ESC                                                                            &mo 1  &kp N6                 &kp N7           &kp N8             &kp N9    &kp N0  &kp MINUS
+       &kp TAB   &kp Q             &kp W           &kp F                 &kp P   &kp G               &kp DEL                                                                            &none   &kp J                  &kp L            &kp U              &kp Y  &kp SEMI   &kp BSLH
  &kp BACKSPACE   &kp A             &kp R           &kp S                 &kp T   &kp D              &kp HOME          &kp LALT  &bootloader                  &bootloader  &kp RWIN    &kp END   &kp H                  &kp N            &kp E              &kp I     &kp O    &kp SQT
      &kp EQUAL   &kp Z             &kp X           &kp C                 &kp V   &kp B                                                &none                       &tog 3                        &kp K                  &kp M        &kp COMMA            &kp DOT  &kp FSLH  &kp ENTER
          &none   &none  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS                    &kp LSHIFT  &kp LEFT_CONTROL       &tog 4                       &tog 2     &mo 1  &kp SPACE          &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &none      &none

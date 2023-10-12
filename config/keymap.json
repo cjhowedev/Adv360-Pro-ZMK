@@ -7,7 +7,7 @@
     "fn",
     "MacOS",
     "QWERTY",
-    "Unity"
+    "Gaming"
   ],
   "layers": [
     [
@@ -35,11 +35,11 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                      "&kp N", "&trans", "&trans", "&trans",        "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",        "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans",  "&kp Q",  "&kp W",  "&kp E",  "&kp R",            "&kp T",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans",  "&kp A",  "&kp S",  "&kp D",  "&kp F",            "&kp G", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans",  "&kp Z",  "&kp X",  "&kp C",  "&kp V",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+                 "&trans",     "&trans", "&trans", "&trans", "&trans", "&trans",              "&trans",                                                                "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                 "&trans",    "&kp TAB",  "&kp Q",  "&kp W",  "&kp E",  "&kp R",               "&kp T",                                                                "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&kp LEFT_CONTROL",  "&kp LCTRL",  "&kp A",  "&kp S",  "&kp D",  "&kp F",               "&kp G",    "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+             "&kp LSHIFT", "&kp LSHIFT",  "&kp Z",  "&kp X",  "&kp C",  "&kp V",                                     "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                 "&trans",     "&trans", "&trans", "&trans",  "&kp B",                     "&kp SPACE", "&kp SPACE", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
